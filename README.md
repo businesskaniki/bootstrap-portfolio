@@ -1,73 +1,71 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Description the project.
-
-
+# Project name
+My Portfolio
 ## Built With
+1. HTML
+2. CSS
+3. Linters
+4. Git/Github
+Live Demo Link
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### Live Demo (if available)
 
 
-To get a local copy up and running follow these simple example steps.
+#### Getting Started
+Instructions on how to access my project locally. To Access my project locally please follow the following instructions;
 
-### Prerequisites
+Enter this url: https://github.com/eaesmat/My-Portfolio in your web browser.
+Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+Select download Zip option from drop down menu.
+Once the download is complete you will be able to access my project locally.
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Prerequisites
+Knowledge about Basic HTML/CSS
+## Setup
+Create the necessary files folder
+## Install
+Any editor such as VS code or Atom
+Lighthouse
+Weblint
+stylelint
+## Run tests
+Linters
+## Deployment
+Github
 
 ## Authors
+👤 Esmatullah Ahmadzai
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+GitHub: @https://github.com/eaesmat
+LinkedIn: https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/
+## Contributors
 
-👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/eudondian)
+- Twitter: [@twitterhandle](https://twitter.com/eudondian)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/esther-udondian-186849119/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+  https://github.com/letarulinda
+  https://www.linkedin.com/in/linda-letaru-masia
 
-## 🤝 Contributing
 
+## My-Portfolio Online version
+
+https://eaesmat.github.io/My-Portfolio/
+
+### Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
 
+#### Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+# Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc

@@ -1,324 +1,218 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <title>my portfolio</title>
-  </head>
-  <body class="">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><span class="fw-bolder">Jhon Doe</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              </ul>
-            </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&family=Poppins&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="./desktop.css" />
+  <title> Esmatullah's Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+      <header>
+        <div class="main-logo"><a class="logo" href="./index.html"> John Doe</a>
+        </div>
+        <nav>
+          <ul class="menu-bar">
+            <li class="menu-items">Portfolio</li>
+            <li class="menu-items">About</li>
+            <li class="menu-items">Contact</li>
+            <li><img src="./png/nav-icon.png" alt="Multi-Post Stories"></li>
           </ul>
-            
-            <a href="#work" class="btn text-light fw-bolder">Portfolio</a>
-            <a href="#about" class="btn text-light fw-bolder">About me </a>
-            <a href="#contact" class="btn text-light fw-bolder">Contact <i class="bi bi-envelope ps-2"></i> </a>
-          </form>
+          <div class="hamburger" onclick="displayContent()">
+            <img src="./svg/menu.svg" alt="Menu" />
+          </div>
+        </nav>
+      </header>
+      <section class="main-section" id="portfolio">
+        <div class="background-adjust">
+          <div class="details">
+            <h1>Hey There. I`m Esmatullah</h1>
+            <h2>I`am a Software Developer</h2>
+            <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don`t hestiate to contact me.
+            </p>
+          </div>
+          
+          <ul class="social-media">
+            <li><a href="#"><img src="./svg/github.svg" alt="github"/></a></li>
+            <li><a href="#"><img src="./svg/linkedin.svg" alt="linkedin"/></a></li>
+            <li><a href="#"><img src="./svg/Vector3.svg" alt="angelist"/></a></li>
+            <li><a href="#"><img src="./svg/twitter.svg" alt="twitter"/></a></li>
+            <li><a href="#"><img src="./svg/Vector5.svg" alt="medium"/></a></li>
+          </ul>
         </div>
-      </div>
-    </nav>
-
-    <section id="main" class="bg-img img-fluid bg-dark">
-        <div class="">
-          <div class="row justify-content-start d-flex align-items-center">
-              <div class="col-md-7 ">
-
-              <div class=" position-absolute pt-5 ">
-                <ul>
-                  <li>
-                    <a href="" class="text-light  "><h1 class="h4 pt-2"><i class="bi bi-github "></i></h1></i></a>
-                  </li>
-                  <li>
-                     <a href="" class="text-light  "><h1 class="h4 pt-2"><i class="bi bi-twitter "></i></h1></i></a>
-                  </li>
-                  <li>
-                    <a href="" class="text-light  "><h1 class="h4 pt-2"><i class="bi bi-linkedin "></i></h1></i></a>
-                  </li>
-                  <li>
-                    <a href="" class="text-light  "><h1 class="h4 pt-2"><i class="bi bi-twitch "></i></h1></i></a>
-                  </li>
-                </ul>
-              </div> 
-
-              <div class="ps-5 ms-5">
-                <h1 class="display-4 fw-bold text-warning">Hey There. <br> I’m Alex</h1>
-                <h5 class="h3 text-light">I’am a Software Developer</h5>
-                <p class="lead text-light">
-                  I can help you build a product , feature <br> or website Look through some
-                  of my work and <br> experience! If you like what you see and have a project
-                  you <br> need coded, don’t hestiate to contact me.
-                </p>
-              </div>
-              </div>
-          <div class="col">
-            <img
-            class="bg-img img-fluid"
-            src="./images/Illustration-header.png"
-            alt="background image"
-          />
-          </div>
-
-            </div>
-            </div>
-          </div>
+        <div class="background-desktop">
         </div>
-    </section>
-
-    <!-- Work Section -->
-
-    <section id="work">
-      <div class=" p-5 container-lg">
-        <div class=" m-5">
-          <h1 class="d-inline">My Recent Work <span><hr class="bg-dark text-dark h-50"></span></h1>
-        </div>
-        <div class="row justify-content-cener ">
-          <div class="col-md-5">
-            <img src="./images/Img Placeholder(10).png" alt="work image" class="img-fluid">
-          </div>
-          <div class="col-md-7">
-            <h3>Multi-Post Stories</h3>
-            <p class="pt-3">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <a href="" class="btn btn-outline-warning">html</a>
-            <a href="" class="btn btn-outline-warning">css</a>
-            <a href="" class="btn btn-outline-warning">bootstrap</a>
-            <a href="" class="btn btn-outline-warning">ruby</a><br>
-            <a href="" class="btn btn-lg btn-warning mt-4">see project</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pt-5" id="cards">
-      <div class="container-lg">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card bg-dark text-white mb-4 border-0 justify-content-cener">
-              <img src="./images/Img Placeholder(6).png" class="card-img img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title display-5">Data Dashboard Healthcare</h5>
-                <p class="card-text pt-2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <div class="">
-                  <a href="" class="btn btn-outline-warning">html</a>
-                  <a href="" class="btn btn-outline-warning">css</a>
-                  <a href="" class="btn btn-outline-warning">bootstrap</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-dark text-white  border-0 justify-content-cener">
-              <img src="./images/Img Placeholder(6).png" class="card-img img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title display-5">Data Dashboard Healthcare</h5>
-                <p class="card-text pt-2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <div class="">
-                  <a href="" class="btn btn-outline-warning">html</a>
-                  <a href="" class="btn btn-outline-warning">css</a>
-                  <a href="" class="btn btn-outline-warning">bootstrap</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-dark text-white border-0 justify-content-cener">
-              <img src="./images/Img Placeholder(6).png" class="card-img img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title display-5">Data Dashboard Healthcare</h5>
-                <p class="card-text pt-2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <div class="">
-                  <a href="" class="btn btn-outline-warning">html</a>
-                  <a href="" class="btn btn-outline-warning">css</a>
-                  <a href="" class="btn btn-outline-warning">bootstrap</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-dark text-white  border-0 justify-content-cener">
-              <img src="./images/Img Placeholder(6).png" class="card-img img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title display-5">Data Dashboard Healthcare</h5>
-                <p class="card-text pt-2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <div class="pt-5">
-                  <a href="" class="btn btn-outline-warning">html</a>
-                  <a href="" class="btn btn-outline-warning">css</a>
-                  <a href="" class="btn btn-outline-warning">bootstrap</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-dark text-white  border-0 justify-content-cener">
-              <img src="./images/Img Placeholder(6).png" class="card-img img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title display-5 ">Data Dashboard Healthcare</h5>
-                <p class="card-text pt-2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <div class="pt-5">
-                  <a href="" class="btn btn-outline-warning">html</a>
-                  <a href="" class="btn btn-outline-warning">css</a>
-                  <a href="" class="btn btn-outline-warning">bootstrap</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-dark text-white mb-4 border-0 justify-content-cener">
-              <img src="./images/Img Placeholder(6).png" class="card-im img-fluid" alt="...">
-              <div class="card-img-overlay">
-                <h5 class="card-title display-5">Data Dashboard Healthcare</h5>
-                <p class="card-text pt-2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <div class="pt-5">
-                  <a href="" class="btn btn-outline-warning">html</a>
-                  <a href="" class="btn btn-outline-warning">css</a>
-                  <a href="" class="btn btn-outline-warning">bootstrap</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!-- About section -->
-
-<section id="about" class="bg-img img-fluid bg-dark pt-5">
-<div class="">
-  <div class="row justify-content-between ms-3">
-    <div class="col-md-6">
-      <h1 class="display-4 text-warning">
-        About me 
-      </h1>
-      <p class="lead text-light pt-3">
-        Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <a href="#" class="btn btn-lg btn-warning pt-3">Get My Resume</a>
-    </div>
-    <div class="col-md-6 justify-content-end align-items-end">
-      <img src="./images/about.png" alt="" class="img-fluid">
-    </div>
+      </section>
+ 
   </div>
-<hr class="h-100 fw-bold bg-light text-light">
-  <div class="row p-5  justify-content-cener align-items-center">
-    <div class="col-md-4">
-      <ul class="text-light list-group p-5">
-        <li class="list-group "></li><h2 class=""><i class="bi bi-diamond pe-3 text-warning"></i>Languages</h2></li>
-        <li class="list-group p-2">JavaScript</li>
-        <li class="list-group p-2">
-          Ruby
-        </li>
-        <li class="list-group p-2">HTML</li>
-        <li class="list-group p-2" >CSS</li>
-        <li class="list-group p-2" >PHP</li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul class="text-light list-group p-5">
-        <li class="list-group "></li><h2 class=""><i class="bi bi-app pe-3 text-warning"></i>Framkworks</h2></li>
-        <li class="list-group p-2">bootstrap</li>
-        <li class="list-group p-2">
-          Ruby on Rails
-        </li>
-        <li class="list-group p-2">Rspec</li>
-        <li class="list-group p-2" >Capybara</li>
-        <li class="list-group p-2" >Selenium</li>
-      </ul>
-    </div>
-    <div class="col-md-4">
-      <ul class="text-light list-group p-5">
-        <li class="list-group "></li><h2 class=""><i class="bi bi-circle pe-3 text-warning"></i>Skills</h2></li>
-        <li class="list-group p-2">Codekit</li>
-        <li class="list-group p-2">
-          Github
-        </li>
-        <li class="list-group p-2">codepen</li>
-        <li class="list-group p-2" >Gitlab</li>
-        <li class="list-group p-2" >Terminal</li>
-      </ul>
-    </div>
-    <div class="col"></div>
-    <div class="col"></div>
-  </div>
-</div>
-</section>
+  <section class="work">
+    <a href="#work"></a>
 
-<!-- contact section -->
-
-<section id="contact" class="pt-5 mb-5">
-  <div class="container-lg">
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="col-md-5">
-        <p class="display-5">
-          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+    <div class="work-1">
+      <div class="work1-visual">
+        <h1>My Recent Works</h1>
+        <div class="line"></div>
+      </div>
+      <div class="work1-content">
+        <div class="work-placeholder"><img src="./svg/ImgPlaceholder.svg" alt="" />
+        </div>
+        <div class="work-data">
+          <div class="content-data">
+            <h1>Multi-Post Stories</h1>
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <ul>
+              <li class="list1"><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
+              <li class="list1"><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
+              <li class="list1"><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">Bootstrap</a></li>
+              <li class="list1"><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
+            </ul>
+            <div class="work1-btn"><button type="button" class="work1-button">See Project</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="work-display">
+    </div>
+    <div class="popUp-Container"></div>
+  </section>
+  <section class="about-me-section" id="about">
+    <div class="about-me-1">
+      <div class="about-me1-content">
+        <h1>About me</h1>
+        <p>
+          Hello I`m a software developer!  I can help you build a product ,
+          feature or website Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don`t
+          hestiate to contact me.
         </p>
+        <div class="about-me-btn"><input type="button" class="about-me-button" value="Get my Resume"></div>
       </div>
-      <div class="col-md-7">
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">first name</label>
-            <input type="text" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">last name</label>
-            <input type="text" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">email address</label>
-            <input type="email" class="form-control" id="inputAddress">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hello Mariane. Glad to see you "></textarea>
-          </div>
-            </div>
-          </div>
-          <div class="col-11 text-center ms-3">
-            <button type="submit" class="btn btn-warning">get in touch</button>
-          </div>
-        </form>
+      <div class="about-me-background"></div>
+    </div>
+    <div class="about-me1-separation">
+      <div class="line2"></div>
+    </div>
+    <div class="about-me-2">
+      <div class="grid1">
+        <div class="topic">
+          <img src="./svg/language.svg" alt="" />
+          <p>Language</p>
+        </div>
+        <ul class="discussion">
+          <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/HTML">html</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/CSS">css</a></li>
+        </ul>
       </div>
+      <div class="grid2">
+        <div class="topic">
+          <img src="./svg/frameworks.svg" alt="" />
+          <p>Frameworks</p>
+        </div>
+        <ul class="discussion">
+          <li><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)">Bootstrap</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Ruby_on_Rails">Ruby On Rails</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/RSpec">RSPec</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Capybara_(software)">CapyBara</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Selenium_(software)">Selenium</a></li>
+        </ul>
+      </div>
+       <div class="grid3">
+        <div class="topic">
+          <img src="./svg/skills.svg" alt="" />
+          <p>Skills</p>
+        </div>
+        <ul class="discussion">
+          <li><a href="https://en.wikipedia.org/wiki/CodeLite">CodeKit</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/GitHub">Github</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/CodePen">Codepen</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/GitLab">GitLab</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Linux_console">Terminal</a></li>
+        </ul>
+       </div>
+    </div>
+  </section>
+  <div class="form-section" id="contact" >
+    <a href="#form"></a>
+    <div class="form-grid">
+      <h2>
+        I'm always interested in hearing about new projects,
+         so if you'd like to chat please get in touch.
+      </h2>
+      <form class="from1" id="#form" method="post" action="https://formspree.io/f/xgedqoye">
+        <ul class="inputs">
+          <li>
+            <ul class="inputa">
+              <li class="input1">
+                <label for="name">name</label>
+                <input name="user-name" id="name" type="text" placeholder="Full Name" maxlength="30" required>
+                <div class="separator1"></div>
+              </li>
+              <li class="input1 email">
+                <label for="e-mail">email</label>
+                <input  name="user-email" id="e-mail" type="email" placeholder="Email address" required>
+                <div class="separator1"></div>
+              </li>             
+            </ul>
+          </li>
+          <li class="input1 input2"><textarea class="text-area" placeholder="Enter text here" maxlength="500" required></textarea></li>
+          <li class="form-button">
+            <button class="submit" type="submit">Get In Touch</button>
+          </li>
+        </ul>
+        <div class="form-popup">
+          <p class="form-popup-text">email must be all lowercase!</p>
+        </div>
+      </form>
+    </div>
+    <div class="separator"></div>
+    <ul class="social-media sm-two">
+      <li><a href="#"><img src="./png/GitHub.png" alt="github"/></a></li>
+      <li><a href="#"><img src="./png/Linkedin.png" alt="linkedin"/></a></li>
+      <li><a href="#"><img src="./png/Angelist.png" alt="angelist"/></a></li>
+      <li><a href="#"><img src="./png/Twitter.png" alt="twitter"/></a></li>
+      <li><a href="#"><img src="./png/Medium.png" alt="medium"/></a></li>
+    </ul>
+    <div class="separator-2"></div>
+  </div>
+  </div>
+  <div class="mobile-menu">
+    <div class="mobile-menu-div">
+      <div class="close" onclick="closeMenu()">
+        <img src="./png/hamburger-close.png" alt="Menu" />
+      </div>
+      <ul class="mobile-menu-ul">
+        <li class="mobile-menu-li-1 portfolio">Portfolio</li>
+        <li class="mobile-menu-li-2"></li>
+        <li class="mobile-menu-li-1 about">About</li>
+        <li class="mobile-menu-li-2"></li>
+        <li class="mobile-menu-li-1 contact">Contact</li>
+        <li class="mobile-menu-li-2"></li>
+      </ul>
+    </div>
+    <div class="bottom-menu">
+      <div class="separator-menu"></div>
     </div>
   </div>
-</section>
-<hr class="bg-dark mt-5">
-
-<footer>
-  <div class="p3  text-center">
-    <ul class="d-flex text-center justify-content-center align-items-center ">
-      <li class="p-3 list-group ">
-        <a class="text-dark" href=""><i class="bi bi-github "></i></a>
-      </li>
-      <li class="p-3 list-group">
-        <a class="text-dark" href=""><i class="bi bi-linkedin"></i></a>
-      </li>
-      <li class="p-3 list-group">
-        <a class="text-dark" href=""><i class="bi bi-twitter"></i></a>
-      </li>
-      <li class="p-3 list-group"> 
-        <a class="text-dark" href=""><i class="bi bi-twitch"></i></a>
-      </li>
-    </ul>
-  </div>
-</footer>
-
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="A"></div>
+  <script src="index.js">
+  </script>  
+</body>
 </html>
